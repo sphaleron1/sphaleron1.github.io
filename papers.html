@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Papers - 양자정보그룹</title>
+    <style>
+        body { background-color: #87CEEB; display: flex; font-family: 'Malgun Gothic', sans-serif; margin: 0; }
+        .sidebar { width: 180px; background: white; height: 100vh; position: fixed; padding: 30px; border-right: 2px solid #000; overflow-y: auto; }
+        .sidebar h2 { font-size: 1.2em; border-bottom: 2px solid #000; padding-bottom: 10px; }
+        .year-link { display: block; padding: 6px 0; color: #333; text-decoration: none; font-weight: bold; font-size: 0.95em; }
+        .year-link:hover { color: blue; text-decoration: underline; }
+
+        .main-content { margin-left: 240px; padding: 50px; width: calc(100% - 240px); }
+        .year-section { margin-bottom: 100px; clear: both; scroll-margin-top: 30px; } /* scroll-margin 추가로 가독성 향상 */
+        .year-title { font-size: 2em; border-bottom: 3px solid #000; display: inline-block; margin-bottom: 30px; }
+        
+        .paper-card { background: white; border: 1px solid #000; padding: 20px; box-shadow: 6px 6px 0px #000; border-radius: 5px; margin-bottom: 25px; width: 90%; }
+        .paper-title { font-size: 1.15em; font-weight: bold; margin-bottom: 10px; line-height: 1.4; }
+        .paper-info { color: #555; margin-bottom: 15px; font-style: italic; font-size: 0.95em; }
+        .btn-group { display: flex; gap: 10px; }
+        .btn { padding: 4px 12px; background: #000; color: #fff; text-decoration: none; font-size: 0.85em; border-radius: 3px; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>Years</h2>
+        <a href="#retirement" class="year-link">정년퇴직 후</a>
+        <a href="#y2024" class="year-link">2024</a>
+        <a href="#y2023" class="year-link">2023</a>
+        <a href="#y2022" class="year-link">2022</a>
+        <a href="#y2021" class="year-link">2021</a>
+        <a href="#y2020" class="year-link">2020</a>
+        <a href="#y2019" class="year-link">2019</a>
+        <a href="#y2018" class="year-link">2018</a>
+        <a href="#y2017" class="year-link">2017</a>
+        <a href="#y2016" class="year-link">2016</a>
+        <a href="#y2015" class="year-link">2015</a>
+        <a href="#y2014" class="year-link">2014</a>
+        <a href="#y2013" class="year-link">2013</a>
+        <a href="#y2012" class="year-link">2012</a>
+        <a href="#y2011" class="year-link">2011</a>
+        <a href="#y2010" class="year-link">2010</a>
+        <a href="#y2009" class="year-link">2009</a>
+        <a href="#y2008" class="year-link">2008</a>
+    </div>
+
+    <div class="main-content">
+        <a href="index.html" style="text-decoration: none; color: #000; font-weight: bold;">← 메인으로 돌아가기</a>
+        <br><br>
+        <h1>Selected Papers (Quantum Information)</h1>
+
+        <div id="retirement" class="year-section">
+            <div class="year-title">정년퇴직 후</div>
+            <div class="paper-card">
+                <div class="paper-title">Propagation of initial uncertainties to Arthurs-Kelly inequality</div>
+                <div class="paper-info">Quantum Inf. Proc., Vol. 24, pp 58 (2025)</div>
+                <div class="btn-group">
+                    <a href="./논문/retirement/KMC-24-01final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2403.17429" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">A Simple Model of Superconductors: Insights from Free Fermion and Boson Gases</div>
+                <div class="paper-info">Working Paper</div>
+                <div class="btn-group">
+                    <a href="./논문/retirement/portion.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2411.08391" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Asymmetric Quantum Illumination with three-mode Gaussian State</div>
+                <div class="paper-info">Working Paper</div>
+                <div class="btn-group">
+                    <a href="./논문/retirement/asymmetric_three-mode.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Feynman Propagator of the Arthurs-Kelly system at the Planck Scale</div>
+                <div class="paper-info">Working Paper</div>
+                <div class="btn-group">
+                    <a href="./논문/retirement/AKGUP.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2503.09111" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2024" class="year-section">
+            <div class="year-title">2024</div>
+            <div class="paper-card">
+                <div class="paper-title">Average Rényi entropy of a subsystem in random pure state</div>
+                <div class="paper-info">Quantum Inf. Proc. Vol. 23, 37 (2024)</div>
+                <div class="btn-group">
+                    <a href="./논문/2024/renyi.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2301.09074" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Euclidean time method in generalized eigenvalue equation</div>
+                <div class="paper-info">Quantum Inf. Proc. Vol. 23, 62 (2024)</div>
+                <div class="btn-group">
+                    <a href="./논문/2024/euclidean.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2307.14640" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2023" class="year-section">
+            <div class="year-title">2023</div>
+            <div class="paper-card">
+                <div class="paper-title">Is entanglement a unique resource in quantum illumination?</div>
+                <div class="paper-info">Quantum Inf. Proc. Vol. 22, 98 (2023)</div>
+                <div class="btn-group">
+                    <a href="./논문/2023/squeeze.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2111.08941" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Scrambling and quantum teleportation</div>
+                <div class="paper-info">Quantum Inf. Proc. Vol. 22, 176 (2023)</div>
+                <div class="btn-group">
+                    <a href="./논문/2023/scrambling-complete-final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2211.10068" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2022" class="year-section">
+            <div class="year-title">2022</div>
+            <div class="paper-card">
+                <div class="paper-title">Quantum illumination with three-mode Gaussian state</div>
+                <div class="paper-info">Quantum Inf. Proc. Vol. 21, 71 (2022)</div>
+                <div class="btn-group">
+                    <a href="./논문/2022/Jung-Park2022_Article_QuantumIlluminationWithThree-m.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2107.05203" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Quantum entanglement with generalized uncertainty principle</div>
+                <div class="paper-info">Nucl. Phys. Vol. B977, 115736 (2022) </div>
+                <div class="btn-group">
+                    <a href="./논문/2022/NPB_final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2203.06557" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2021" class="year-section">
+            <div class="year-title">2021</div>
+            <div class="paper-card">
+                <div class="paper-title">Aharonov-Bohm-like scattering in the generalized uncertainty principle-corrected quantum mechanics</div>
+                <div class="paper-info">Int. J. Mod. Phys. Vol. A36, 2150108 (2021)</div>
+                <div class="btn-group">
+                    <a href="./논문/2021/ABfinal.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2101.08906" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">R´enyi and von Neumann entropies of thermal state in Generalized Uncertainty Principle-corrected harmonic oscillator</div>
+                <div class="paper-info">Mod. Phys. Lett. Vol. A36, 2150250 (2022) </div>
+                <div class="btn-group">
+                    <a href="./논문/2021/MPLA_Renyi_final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2006.02717" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2020" class="year-section">
+            <div class="year-title">2020</div>
+            <div class="paper-card">
+                <div class="paper-title">Thermal entanglement phase transition in coupled harmonic oscillators with arbitrary time-dependent frequencies</div>
+                <div class="paper-info">Quant. Inf. Proc. Vol. 19, 129 (2020)</div>
+                <div class="btn-group">
+                    <a href="./논문/2020/final_thermal.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1903.03297" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Comment on “Path-integral action of a particle with the generalized uncertainty principle and correspondence with noncommutativity”</div>
+                <div class="paper-info">Phys. Rev. D 101 (2020) 068501 </div>
+                <div class="btn-group">
+                    <a href="./논문/2020/GUP_c_final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2002.07954" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Generalized uncertainty principle and point interaction</div>
+                <div class="paper-info">Phys. Rev. D 101 (2020) 066007 </div>
+                <div class="btn-group">
+                    <a href="./논문/2020/GUP-p_final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2001.02850" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Generalized uncertainty principle and d-dimensional quantum mechanics</div>
+                <div class="paper-info">Phys. Rev. D 101 (2020) 106013 </div>
+                <div class="btn-group">
+                    <a href="./논문/2020/GUPdfinal.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/2003.13856" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Sum rule of quantum uncertainties: coupled harmonic oscillator system with time-dependent parameters</div>
+                <div class="paper-info">Quant. Inf. Proc. 19 (issue 8) (2020) 259 </div>
+                <div class="btn-group">
+                    <a href="./논문/2020/sumrule_final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1909.11388" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2019" class="year-section">
+            <div class="year-title">2019</div>
+            <div class="paper-card">
+                <div class="paper-title">Thermal entanglement and thermal discord in two-qubit Heisenberg XYZ chain with Dzyaloshinskii–Moriya interactions</div>
+                <div class="paper-info">Quant. Inf. Proc. 18 (issue 6) (2019) 172 </div>
+                <div class="btn-group">
+                    <a href="./논문/2019/XYZ.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1901.06165" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Dynamics of entanglement in three coupled harmonic oscillator system with arbitrary time-dependent frequency and coupling constants</div>
+                <div class="paper-info">Quant. Inf. Proc. 18 (issue 9) (2019) 282 </div>
+                <div class="btn-group">
+                    <a href="./논문/2019/tripartite-final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1811.06256" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2018" class="year-section">
+            <div class="year-title">2018</div>
+            <div class="paper-card">
+                <div class="paper-title">Dynamics of entanglement and uncertainty relation in coupled harmonic oscillator system: exact results</div>
+                <div class="paper-info">Quant. Inf. Proc. 17 (issue 6) (2018) 147 </div>
+                <div class="btn-group">
+                    <a href="./논문/2018/exact.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1801.07070" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2017" class="year-section">
+            <div class="year-title">2017</div>
+            <div class="paper-card">
+                <div class="paper-title">Non-Markovianity and Coherence of a Moving Qubit inside a Leaky Cavity</div>
+                <div class="paper-info">Open Systems and Information Dynamics, 24 (issue 3) (2017) 1740006 </div>
+                <div class="btn-group">
+                    <a href="./논문/2017/S1230161217400066.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1705.00887" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2016" class="year-section">
+            <div class="year-title">2016</div>
+            <div class="paper-card">
+                <div class="paper-title">Mixedness and entanglement in the presence of localized closed timelike curves</div>
+                <div class="paper-info">Quant. Inf. Proc. 15 (issue 7) (2016) 3055-3063 </div>
+                <div class="btn-group">
+                    <a href="./논문/2016/finalCTC.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1506.02333" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Tripartite entanglement dynamics in the presence of Markovian or non-Markovian environment</div>
+                <div class="paper-info">Quant. Inf. Proc. 15 (issue 8) (2016) 3189-3208 </div>
+                <div class="btn-group">
+                    <a href="./논문/2016/nonmarkovian-final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1601.00273" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Testing the monogamy relations via rank-2 mixtures</div>
+                <div class="paper-info">Phys. Rev. A 94 (2016) 042330 </div>
+                <div class="btn-group">
+                    <a href="./논문/2016/PhysRevA.94final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1607.00135" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2015" class="year-section">
+            <div class="year-title">2015</div>
+            <div class="paper-card">
+                <div class="paper-title">REE from EOF</div>
+                <div class="paper-info">Quant. Inf. Proc. 14 (issue 2) (2015) 531-546 </div>
+                <div class="btn-group">
+                    <a href="./논문/2015/ree.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1404.7708" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Entanglement of four-qubit rank-2 mixed states</div>
+                <div class="paper-info">Quant. Inf. Proc. 14 (issue 9) (2015) 3317-3333 </div>
+                <div class="btn-group">
+                    <a href="./논문/2015/fourqubitfinal.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1505.06261" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2014" class="year-section">
+            <div class="year-title">2014</div>
+            <div class="paper-card">
+                <div class="paper-title">Entanglement Classification of relaxed Greenberger-Horne-Zeilinger-Symmetric States</div>
+                <div class="paper-info">Quant. Inf. Proc. and Comp. 14 (issue 11-12) (2014) 0937-0948 </div>
+                <div class="btn-group">
+                    <a href="./논문/2014/relaxed.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1303.3712" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Entanglement classification of restricted Greenberger-Horne-Zeilinger–symmetric states in a four-qubit system</div>
+                <div class="paper-info">Phys. Rev. A 89 (issue 5) (2014) 052326 </div>
+                <div class="btn-group">
+                    <a href="./논문/2014/restricted.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1305.2012" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2013" class="year-section">
+            <div class="year-title">2013</div>
+            <div class="paper-card">
+                <div class="paper-title">ENTANGLEMENT DEGRADATION IN THE PRESENCE OF (4 + n)-DIMENSIONAL SCHWARZSCHILD BLACK HOLE</div>
+                <div class="paper-info">International J. Quant. Inf. 11 (issue 01) (2013) 1350014 </div>
+                <div class="btn-group">
+                    <a href="./논문/2013/Schwarzschild.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1208.6383" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Zitterbewegung in bilayer graphene: Effects of trigonal warping and electric field</div>
+                <div class="paper-info">Phys. Rev. B 87 (issue 11) (2013) 115438 </div>
+                <div class="btn-group">
+                    <a href="./논문/2013/PRB-13-87-115438.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="./논문/2013/Erratumprb.pdf" class="btn" target="_blank">Erratum</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Quantum Discord and Quantum Entanglement in the Presence of an Asymptotically Flat Static Black Hole</div>
+                <div class="paper-info">International J. Quant. Inf. 11 (issue 6) (2013) 1350061 </div>
+                <div class="btn-group">
+                    <a href="./논문/2013/discord.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1206.5608" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2012" class="year-section">
+            <div class="year-title">2012</div>
+            <div class="paper-card">
+                <div class="paper-title">The Aharonov–Bohm–Coulomb problem in a graphene ring</div>
+                <div class="paper-info">J. Phys. A: Math. Theor. 45 (2012) 055301 </div>
+                <div class="btn-group">
+                    <a href="./논문/2012/finalabc.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1104.0369" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">ON A p-ADIC ANALOGUE OF k-PLE RIEMANN ZETA FUNCTION</div>
+                <div class="paper-info">Bull. Korean Math. Soc. 49 (2012) 165 </div>
+                <div class="btn-group">
+                    <a href="./논문/2012/BKMS-49-1-165-174.pdf" class="btn" target="_blank">PDF</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Time dependence of the position-momentum and position-velocity uncertainties in gapped graphene</div>
+                <div class="paper-info">Phys. Rev. B85 (issue 16) (2012) 165418 </div>
+                <div class="btn-group">
+                    <a href="./논문/2012/uncertainty.final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1107.5405" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Three-tangle in non-inertial frame</div>
+                <div class="paper-info">Classical and Quantum Gravity, 29 (issue 22) (2012) 224004 </div>
+                <div class="btn-group">
+                    <a href="./논문/2012/CQG-final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1203.5594" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Tripartite entanglement-dependence of tripartite non-locality in non-inertial frames</div>
+                <div class="paper-info">J. Phys. A: Math. Theor. 45 (issue 41) (2012) 415308 </div>
+                <div class="btn-group">
+                    <a href="./논문/2012/nonlocal-final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1201.1335" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2011" class="year-section">
+            <div class="year-title">2011</div>
+            <div class="paper-card">
+                <div class="paper-title">Tripartite entanglement in a noninertial frame</div>
+                <div class="paper-info">Phys. Rev. A 83 (2011) 012111 </div>
+                <div class="btn-group">
+                    <a href="./논문/2011/noninertial.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1010.6154" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Phase-factor Dependence of the Geometric Entanglement Measure</div>
+                <div class="paper-info">JKPS, 58 (2011) 1058-1075 </div>
+                <div class="btn-group">
+                    <a href="./논문/2011/jkps.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0909.1077" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2010" class="year-section">
+            <div class="year-title">2010</div>
+            <div class="paper-card">
+                <div class="paper-title">THREE-PARTY ENTANGLEMENT IN TRIPARTITE TELEPORTATION SCHEME THROUGH NOISY CHANNELS</div>
+                <div class="paper-info">QIC, Vol. 10 (No. 5,6) (2010) 0377-0397 </div>
+                <div class="btn-group">
+                    <a href="./논문/2010/triteleport-qic.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0904.2807" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Difficulties in analytic computation for relative entropy of entanglement</div>
+                <div class="paper-info">Phys. Rev. A 81 (2010) 052325 </div>
+                <div class="btn-group">
+                    <a href="./논문/2010/difficulty.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1002.4695" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Induced Bipartite Entanglement from Three Qubit States and Quantum Teleportation</div>
+                <div class="paper-info">JKPS, 57 (No. 1) (2010) 5-11</div>
+                <div class="btn-group">
+                    <a href="./논문/2010/jkps.pdf" class="btn" target="_blank">PDF</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Relative Entropy of Entanglement for Two-Qubit State with z-directional Bloch Vectors</div>
+                <div class="paper-info">Phys. Rev. A 81 (2010) 052325 </div>
+                <div class="btn-group">
+                    <a href="./논문/2010/00662.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/1005.4777" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2009" class="year-section">
+            <div class="year-title">2009</div>
+            <div class="paper-card">
+                <div class="paper-title">Three-tangle for rank-three mixed states...</div>
+                <div class="paper-info">Phys. Rev. A 79 (No. 2) (2009) 024306 </div>
+                <div class="btn-group">
+                    <a href="./논문/2009/PhysRevA.79.024306.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0810.5403" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Attack of many eavesdroppers via optimal strategy...</div>
+                <div class="paper-info">Phys. Rev. A 79 (No. 3) (2009) 032339 </div>
+                <div class="btn-group">
+                    <a href="./논문/2009/cryptography.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0901.1932" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Three-tangle does not properly quantify...</div>
+                <div class="paper-info">Phys. Rev. A 80 (No. 1) (2009) 010301(R)</div>
+                <div class="btn-group">
+                    <a href="./논문/2009/proper.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0901.2620" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Toward an understanding of entanglement for generalized n-qubit W-states</div>
+                <div class="paper-info">J. Phys. A: Math. Theor. 42 (No. 47) (2009) 475303 </div>
+                <div class="btn-group">
+                    <a href="./논문/2009/toward-final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0806.1314" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Maximally entangled three-qubit states...</div>
+                <div class="paper-info">Phys. Rev. A 80 (No. 5) (2009) 052315 </div>
+                <div class="btn-group">
+                    <a href="./논문/2009/maximal-final.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0905.3791" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="y2008" class="year-section">
+            <div class="year-title">2008</div>
+            <div class="paper-card">
+                <div class="paper-title">Amplitude Damping for Single-Qubit System...</div>
+                <div class="paper-info">J. Phys. A: Math. Theor., 41 (No. 4) (2008) 045306 </div>
+                <div class="btn-group">
+                    <a href="./논문/2008/amplitude.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0705.3952" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Analytic expressions for geometric measure...</div>
+                <div class="paper-info">Phys. Rev. A 77 (No. 2) (2008) 022325 </div>
+                <div class="btn-group">
+                    <a href="./논문/2008/analytic.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0710.0571" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Reduced state uniquely defines the Groverian measure...</div>
+                <div class="paper-info">Phys. Rev. A 77 (No. 6) (2008) 062317</div>
+                <div class="btn-group">
+                    <a href="./논문/2008/reduced.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0709.4292" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">On a Two-Variable p-Adic lq-Function</div>
+                <div class="paper-info">Abstract and Applied Analysis 2008 (2008) 360517 </div>
+                <div class="btn-group">
+                    <a href="./논문/2008/two-variable.pdf" class="btn" target="_blank">PDF</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">THREE-QUBIT GROVERIAN MEASURE</div>
+                <div class="paper-info">QIC, 8 (No. 10) (2008) 0925-0942 </div>
+                <div class="btn-group">
+                    <a href="./논문/2008/Groverian.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0803.3311" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Greenberger-Horne-Zeilinger versus W states...</div>
+                <div class="paper-info">Phys. Rev. A 78 (No. 1) (2008) 012312 </div>
+                <div class="btn-group">
+                    <a href="./논문/2008/versus.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0801.1433" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Geometric measure of entanglement and shared quantum states</div>
+                <div class="paper-info">Phys. Rev. A 78 (No. 3) (2008) 032304</div>
+                <div class="btn-group">
+                    <a href="./논문/2008/geometric.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0803.1040" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+            <div class="paper-card">
+                <div class="paper-title">Mixed-state entanglement and quantum teleportation...</div>
+                <div class="paper-info">J. Phys A: Math. Theor., 41 (No. 38) (2008) 385302</div>
+                <div class="btn-group">
+                    <a href="./논문/2008/mixed.pdf" class="btn" target="_blank">PDF</a>
+                    <a href="https://arxiv.org/abs/0804.4595" class="btn" target="_blank">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

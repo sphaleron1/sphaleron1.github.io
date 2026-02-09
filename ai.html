@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>AI-related Stuffs - 양자정보그룹</title>
+    <style>
+        body { background-color: #87CEEB; color: #000; font-family: 'Malgun Gothic', sans-serif; padding: 50px; }
+        h1 { border-bottom: 2px solid #000; display: inline-block; padding-bottom: 5px; margin-bottom: 30px; }
+        .back-btn { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #000; font-weight: bold; }
+        .ai-list { display: flex; flex-direction: column; gap: 60px; }
+        .ai-card { 
+            background: white; border: 1px solid #000; padding: 25px; 
+            box-shadow: 10px 10px 0px #000; border-radius: 5px; max-width: 800px; 
+        }
+        .ai-date { font-size: 0.9em; color: #555; margin-bottom: 10px; font-weight: bold; }
+        .ai-title { font-size: 1.4em; font-weight: bold; margin-bottom: 15px; color: #000; }
+        
+        /* 영상 크기 완벽 통일 */
+        video { 
+            width: 500px; 
+            height: 300px; 
+            object-fit: cover; 
+            border: 1px solid #000; 
+            background: #000; 
+        }
+        .ai-description { margin-top: 15px; line-height: 1.6; font-size: 1.1em; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-btn">← 메인으로 돌아가기</a>
+    <br><h1>AI-related Stuffs</h1>
+    <div class="ai-list">
+        <div class="ai-card">
+            <div class="ai-date">2026-01-29</div><div class="ai-title">마산 홍보 영상</div>
+            <video controls><source src="./videos/masan_final.mp4" type="video/mp4"></video>
+            <div class="ai-description">마산에 대한 홍보 영상</div>
+        </div>
+        <div class="ai-card">
+            <div class="ai-date">2026-01-29</div><div class="ai-title">파프리카 홍보 영상</div>
+            <video controls><source src="./videos/paprica1.mp4" type="video/mp4"></video>
+            <div class="ai-description">파프리카에 대한 홍보 영상</div>
+        </div>
+        <div class="ai-card">
+            <div class="ai-date">2026-01-29</div><div class="ai-title">미니애폴리스 사건</div>
+            <video controls><source src="./videos/미니애폴리스.mp4" type="video/mp4"></video>
+            <div class="ai-description">미국 미니애폴리스에서 ICE 요원에 의한 르네 굿의 살해에 관한 영상</div>
+        </div>
+        <div class="ai-card">
+            <div class="ai-date">2026-01-29</div><div class="ai-title">봄의 벚꽃</div>
+            <video controls><source src="./videos/봄의벚꽃2.mp4" type="video/mp4"></video>
+            <div class="ai-description">봄에 만개한 벚꽃에 대한 영상</div>
+        </div>
+        <div class="ai-card">
+            <div class="ai-date">2026-01-29</div><div class="ai-title">지구촌의 슬픔</div>
+            <video controls><source src="./videos/슬픔final.mp4" type="video/mp4"></video>
+            <div class="ai-description">지구촌에서의 전쟁과 학살에 대한 영상</div>
+        </div>
+        <div class="ai-card">
+            <div class="ai-date">2026-01-29</div><div class="ai-title">파프리카 농장의 아침</div>
+            <video controls><source src="./videos/파프리카농장최종1.mp4" type="video/mp4"></video>
+            <div class="ai-description">파프리카 농장의 신선한 아침에 대한 영상</div>
+        </div>
+    </div>
+</body>
+</html>

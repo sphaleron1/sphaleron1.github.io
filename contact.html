@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Info - 경남대 양자정보그룹</title>
+    <style>
+        body { background-color: #87CEEB; color: #000; font-family: 'Malgun Gothic', sans-serif; padding: 50px; }
+        h1 { border-bottom: 2px solid #000; display: inline-block; padding-bottom: 5px; }
+        h2 { margin-top: 40px; border-left: 5px solid #000; padding-left: 15px; }
+        
+        /* 연락처 테이블 */
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: rgba(255, 255, 255, 0.3); }
+        th, td { border: 1px solid #000; padding: 12px; text-align: left; }
+        
+        /* 피드형 게시판 (날짜별로 아래로 쌓이는 구조) */
+        .feed-container { margin-top: 30px; display: flex; flex-direction: column; gap: 40px; }
+        .feed-item { background: white; border: 1px solid #000; padding: 20px; box-shadow: 8px 8px 0px #000; }
+        .feed-date { font-weight: bold; color: #555; border-bottom: 1px solid #eee; margin-bottom: 15px; padding-bottom: 5px; }
+        .feed-content img, .feed-content video { max-width: 100%; height: auto; display: block; margin-bottom: 15px; border: 1px solid #ddd; }
+        .feed-description { line-height: 1.6; font-size: 16px; }
+
+        .back-btn { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #000; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-btn">← 메인으로 돌아가기</a>
+    
+    <h1>Contact Information</h1>
+
+    <h2>연구진 연락처</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>E-mail</th>
+                <th>전화번호</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>박대길 명예교수</strong></td>
+                <td>dkpark@kyungnam.ac.kr</td> <td>-</td>
+            </tr>
+            <tr>
+                <td><strong>정이리 박사</td>
+                <td>exit21p@hanmail.net</td>
+                <td>010-xxxx-xxxx</td>
+            </tr>
+            <tr>
+                <td><strong>황미라 박사</td>
+                <td>hwangmira99@nate.com</td>
+                <td>010-xxxx-xxxx</td>
+            </tr>
+            <tr>
+                <td><strong>김무성 석사</td>
+                <td>museong@gmail.com</td>
+                <td>010-xxxx-xxxx</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>추억의 기록</h2>
+    <div class="feed-container">
+        
+        <div class="feed-item">
+            <div class="feed-date">2026년 1월 26일</div>
+            <div class="feed-content">
+                <img src="./사진/test1.jpg" width="400"  alt="캠퍼스 사진">
+               
+                </div>
+            <div class="feed-description">
+                이리와 함께 천왕봉에서....
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
