@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>현장 갤러리 - 우포그린 영농조합</title>
+    <style>
+        body { font-family: 'Malgun Gothic', sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; background-color: #fcfdfc; }
+        h1 { color: #2ecc71; text-align: center; border-bottom: 3px solid #2ecc71; padding-bottom: 15px; margin-bottom: 40px; }
+        
+        .gallery-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; padding: 10px; }
+        .gallery-item { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: 0.3s; border: 1px solid #eee; }
+        .gallery-item:hover { transform: translateY(-8px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+        
+        /* 이미지 스타일: 사진이 꽉 차게 설정 */
+        .gallery-item img { width: 100%; height: 220px; object-fit: cover; display: block; }
+        .gallery-img-placeholder { width: 100%; height: 220px; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #999; }
+        
+        .gallery-info { padding: 18px; text-align: center; }
+        .gallery-info h3 { margin: 0 0 8px 0; color: #27ae60; }
+        .gallery-info p { margin: 0; font-size: 0.9em; color: #777; }
+
+        .btn-box { text-align: center; margin-top: 60px; padding-bottom: 40px; }
+        .btn-back { display: inline-block; padding: 15px 40px; background: #2ecc71; color: white; text-decoration: none; border-radius: 30px; font-weight: bold; font-size: 1.1em; }
+        .btn-back:hover { background: #27ae60; }
+    </style>
+</head>
+<body>
+
+    <h1>🌿 우포그린 현장 갤러리</h1>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="farm1.png" alt="창녕 농장 전경">
+            <div class="gallery-info">
+                <h3>창녕 농장 전경</h3>
+                <p>우포늪 인근의 광활한 현대식 재배 단지</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <div class="gallery-img-placeholder">준비 중인 사진입니다</div>
+            <div class="gallery-info">
+                <h3>싱싱한 파프리카</h3>
+                <p>무농약 공법으로 건강하게 키웁니다</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <div class="gallery-img-placeholder">준비 중인 사진입니다</div>
+            <div class="gallery-info">
+                <h3>수확의 기쁨</h3>
+                <p>당일 수확한 신선함을 전해드립니다</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn-box">
+        <a href="woopo_index.html" class="btn-back">🏠 메인 화면으로 돌아가기</a>
+    </div>
+
+</body>
+</html>
